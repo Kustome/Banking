@@ -2,6 +2,7 @@
 	class Bank{
 		function __construct(){
 			$this->Name = 'Wild Wild West Banking';
+			//This is not where I would want to instantiate this data either. This is just for demo purposes. 
 			$this->Accounts = array(
 				array(
 					'AccountNumber' => 12345678,
